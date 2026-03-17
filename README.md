@@ -47,6 +47,7 @@
 
 ---
 
+```bash
 ## 📁 Структура проекта
 practical-11-rbac/
 ├── backend/
@@ -80,6 +81,43 @@ practical-11-rbac/
 │ ├── node_modules/
 │ ├── package.json
 │ └── README.md
-│
+├── start.ps1
 └── README.md
+```
 
+
+---
+
+## 📥 Установка и запуск
+
+### Предварительные требования
+
+- Node.js версии 14.x или выше
+- npm или yarn
+
+### Установка
+
+#### 1. Клонируйте репозиторий
+
+```bash
+git clone <URL_РЕПОЗИТОРИЯ>
+cd practical-11-rbac
+```
+
+#### 2. Установка зависимостей бэкенда
+
+```bash
+cd backend
+npm install
+```
+#### 3. Установка зависимостей фронтенда
+
+```bash
+cd ../frontend
+npm install
+```
+
+### Запуск
+```bash
+.\start.ps1
+```
